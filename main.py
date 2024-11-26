@@ -9,7 +9,7 @@ def index():
         <html><body>
         <form action="/hello" method="GET">
           名前: <input type="text" name="name"><br>
-          
+          ひとこと: <input type="text" name="comment"><br>
           <input type="submit" value="送信">
         </form>
         </body></html>
